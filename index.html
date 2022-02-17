@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>Recriando a interface Netflix</title>
 </head>
 <body>
@@ -28,9 +31,11 @@
                 <p class="descricao">Num drama sobre as consequências do poder e da corrupção, Francis Underwood (Kevin Spacey) está sedento por sucesso e nada o detém. Trata-se de uma história onde são ultrapassados os limites para satisfazer o desejo de um homem que ambiciona governar o mundo.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
                         Assistir agora
                     </button>
                     <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
                         Mais informações
                     </button>
                 </div>
@@ -38,5 +43,35 @@
            
         </div>
     </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filmes"src="resources/min2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="resources/min1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
 </html>
